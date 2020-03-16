@@ -15,7 +15,7 @@ tjne() {
 
 # TODO: sort by newest first
 tjve() {
-    less *.md
+    ls | sort -r | xargs less
 }
 
 tjse() {
