@@ -13,7 +13,6 @@ tjne() {
     vim $(date --iso-8601=seconds).md
 }
 
-# TODO: sort by newest first
 tjve() {
     ls | sort -r | xargs less
 }
