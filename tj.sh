@@ -19,6 +19,5 @@ tjve() {
 }
 
 tjse() {
-    echo "$@"
     grep -iR "$@"
 }
