@@ -1,3 +1,4 @@
+#!/bin/bash
 # tj (tinyjournal)
 # Journaling application that is basically a wrapper around vim and less
 
@@ -18,5 +19,6 @@ tjve() {
 }
 
 tjse() {
-    grep -iR $1
+    echo "$@"
+    grep -iR "$@"
 }
